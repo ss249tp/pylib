@@ -1,4 +1,17 @@
 
+### [0.1.2](https://github.com/ss249tp/pylib/compare/v0.1.1..v0.1.2) - 2025-04-10
+
+#### Features
+
+- Add `linear()` - ([608e070](https://github.com/ss249tp/pylib/commit/608e070531851c932f1e66d1ad96fea105820108)) - ss249tp
+
+#### Chores
+
+- **(cicd)** Fix PyTorch installation in CI workflow - ([20480eb](https://github.com/ss249tp/pylib/commit/20480ebebf67c5f22a86882ad6dc1d45245776ad)) - ss249tp
+- **(cicd)** Fix PyTorch installation in release workflow - ([02f535c](https://github.com/ss249tp/pylib/commit/02f535c944a6820983662d3054ef7943168c14fc)) - ss249tp
+
+---
+
 ### [0.1.1](https://github.com/ss249tp/pylib/compare/v0.1.0..v0.1.1) - 2025-04-10
 
 #### Features
