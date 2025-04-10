@@ -46,7 +46,7 @@ jobs:
         INDEX_URL: "https://test.pypi.org/simple/"
         MODULE: "pylib"
         PKG: "ss249tp-pylib"
-      run: uv run --with "$PKG" --default-index "$INDEX_URL" --no-project -- python -c "import $MODULE"
+      run: uv run --with "$PKG" --default-index "$INDEX_URL" --extra cpu --no-project -- python -c "import $MODULE"
 
     - name: Create GitHub release
       env:
