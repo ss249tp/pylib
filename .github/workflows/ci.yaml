@@ -33,7 +33,7 @@ jobs:
         MODULE: "pylib"
       run: |
         uv python install
-        uv sync --dev
+        uv sync --dev --extra cpu
         uv run pytest --cov=$MODULE --cov-report=xml tests/
 
     # Only upload coverage report of tests in default branch.
