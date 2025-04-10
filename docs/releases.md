@@ -1,4 +1,12 @@
 
+### [0.1.3](https://github.com/ss249tp/pylib/compare/v0.1.2..v0.1.3) - 2025-04-10
+
+#### Chores
+
+- **(cicd)** Fix PyTorch installation in release workflow - ([476c4c4](https://github.com/ss249tp/pylib/commit/476c4c4736f9d40bdf0ac2655a99aaecc40e7836)) - ss249tp
+
+---
+
 ### [0.1.2](https://github.com/ss249tp/pylib/compare/v0.1.1..v0.1.2) - 2025-04-10
 
 #### Features
