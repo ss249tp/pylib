@@ -1,4 +1,7 @@
-__all__ = ("true",)
+__all__ = (
+    "true",
+    "false",
+)
 
 
 def true(arg: object = None) -> bool:
@@ -11,3 +14,15 @@ def true(arg: object = None) -> bool:
         `True`.
     """
     return True
+
+
+def false(arg: object = None) -> bool:
+    """Return `False` no matter what.
+
+    Args:
+        arg: Any object.
+
+    Returns:
+        `False`.
+    """
+    return False
